@@ -99,6 +99,7 @@ button.on("click", function() {
 });
 
 
+
 function clearTable(){
     var tableHeaderRowCount = 1;
     var table = document.getElementById('ufo-table');
