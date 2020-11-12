@@ -8,7 +8,7 @@ var tbody = d3.select("tbody");
 
 //Loop Through `data` and log each UFO report
 function renderTable(data1){   
-    
+
     data1.forEach(ufoData => {
     //console.log(ufoData);
 
@@ -31,7 +31,6 @@ renderTable(tableData);
 var button = d3.select("#filter-btn");
 //filter data based on user input
 button.on("click", function() {
-
     // Select the input element and get the raw HTML node
     var inputElement = d3.select("#datetime");
     // Get the value property of the input element
@@ -56,6 +55,7 @@ function clearTable(){
     for (var i = tableHeaderRowCount; i < rowCount; i++) {
         table.deleteRow(tableHeaderRowCount);
     }
+    
 };
 
 function errorPopup() {
