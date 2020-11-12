@@ -198,6 +198,16 @@ select {
   }
 }
 
+.my-custom-scrollbar {
+  position: relative;
+  height: 550px;
+  overflow: auto;
+  }
+
+  .table-wrapper-scroll-y {
+  display: block;
+}
+
 /* keyframe animations which will be used to animate the title */
 @keyframes title {
   from {
