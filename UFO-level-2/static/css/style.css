@@ -76,6 +76,8 @@ select {
 
 #table-area th {
   text-align: center;
+  font-size: 20px;
+  color: #39FF14;
 }
 
 #table-area th:first-child,
