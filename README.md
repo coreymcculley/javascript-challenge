@@ -1,4 +1,4 @@
-#### javascript-challenge
+## javascript-challenge
 
 ### UFO Level 1
 The index html file contains my webpage. You can filter it by date as requested in the instructions. 
