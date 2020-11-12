@@ -139,6 +139,10 @@ select {
   color: #8e979f;
 }
 
+.table-txtsize{
+  font-size: 15px;
+}
+
 /* media queries which will only be activated at specific screen sizes */
 @media (max-width: 800px) {
   #table-area td {

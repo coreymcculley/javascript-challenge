@@ -192,6 +192,10 @@ select {
   }
 }
 
+.table-txtsize{
+  font-size: 15px;
+}
+
 /* keyframe animations which will be used to animate the title */
 @keyframes title {
   from {
