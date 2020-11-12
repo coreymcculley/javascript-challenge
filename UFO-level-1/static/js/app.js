@@ -31,6 +31,9 @@ renderTable(tableData);
 var button = d3.select("#filter-btn");
 //filter data based on user input
 button.on("click", function() {
+
+    filteredData = [];
+    d3.event.preventDefault();
     // Select the input element and get the raw HTML node
     var inputElement = d3.select("#datetime");
     // Get the value property of the input element
